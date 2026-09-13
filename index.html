@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>navtej  | Web Designer</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <a class="logo" href="#home">Your<span>Portfolio</span></a>
+
+    <nav>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <p class="eyebrow">WEB DESIGNER • FREELANCER</p>
+      <h1>I build websites that help small businesses <span>stand out.</span></h1>
+      <p class="hero-text">
+        Hi, I’m Your Name. I create modern, responsive websites for restaurants,
+        local businesses, and growing brands.
+      </p>
+      <a class="button" href="#projects">View My Work</a>
+    </section>
+
+    <section class="about section" id="about">
+      <div>
+        <p class="eyebrow">ABOUT ME</p>
+        <h2>Simple websites.<br /><span>Real results.</span></h2>
+      </div>
+
+      <p>
+        I build clean, mobile-friendly websites that make it easy for customers
+        to discover a business, explore its services, and get in touch. Every
+        project is designed to look professional and work smoothly on every device.
+      </p>
+    </section>
+
+    <section class="section services" id="services">
+      <p class="eyebrow center">WHAT I CAN BUILD</p>
+      <h2 class="center">My <span>Services</span></h2>
+
+      <div class="service-grid">
+        <article class="service-card">
+          <div class="icon">🍽️</div>
+          <h3>Restaurant Websites</h3>
+          <p>Menus, food galleries, table-booking forms, location details, and WhatsApp contact buttons.</p>
+        </article>
+
+        <article class="service-card">
+          <div class="icon">🏪</div>
+          <h3>Local Business Sites</h3>
+          <p>Modern websites for salons, gyms, clinics, shops, agencies, and service businesses.</p>
+        </article>
+
+        <article class="service-card">
+          <div class="icon">📱</div>
+          <h3>Responsive Design</h3>
+          <p>Every website is designed to look good and be easy to use on mobile, tablet, and desktop.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="projects section" id="projects">
+      <p class="eyebrow center">FEATURED WORK</p>
+      <h2 class="center">My <span>Projects</span></h2>
+
+      <article class="project-card">
+        <div class="project-image">
+          <span>🍲</span>
+        </div>
+
+        <div class="project-content">
+          <p class="project-type">RESTAURANT WEBSITE</p>
+          <h3>Teja Cafeyy</h3>
+          <p>
+            A responsive restaurant website with a food menu, café story,
+            booking form, and contact section.
+          </p>
+
+          <!-- Replace # with your real Teja Cafeyy Vercel link -->
+          <a class="project-link" href="https://teja-cafeyy.vercel.app" target="_blank">View Live Website →</a>
+        </div>
+      </article>
+    </section>
+
+    <section class="contact section" id="contact">
+      <p class="eyebrow center">LET'S WORK TOGETHER</p>
+      <h2 class="center">Need a website for your <span>business?</span></h2>
+      <p class="contact-text center">Send me a message and let’s discuss your project.</p>
+      <a class="whatsapp-link" href="https://wa.me/918310822431" target="_blank">Chat with me on WhatsApp</a>
+
+      <form id="contact-form">
+        <input id="client-name" type="text" placeholder="Your name" required />
+        <input type="email" placeholder="Your email" required />
+        <textarea placeholder="Tell me about your project" required></textarea>
+        <button class="button" type="submit">Send Message</button>
+        <p id="form-message"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Your Name. Built with HTML, CSS, and JavaScript.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
